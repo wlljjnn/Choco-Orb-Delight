@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<!-- saved from url=(0076)file:///C:/Users/wilja/OneDrive/Desktop/D%20&%20P%20HTML%20&%20CSS/menu.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Menu</title>
+	<link rel="icon" type="image/x-icon" href="file:///C:/Users/wilja/OneDrive/Desktop/D%20&amp;%20P%20HTML%20&amp;%20CSS/Icons/Logo.png">
+	<link rel="stylesheet" type="text/css" href="./menu_files/all.min.css">
+	<link rel="stylesheet" href="./menu_files/cart.css">
+	<!-- css file -->
+	<link rel="stylesheet" type="text/css" href="file:///C:/Users/wilja/OneDrive/Desktop/D%20&amp;%20P%20HTML%20&amp;%20CSS/2-menu.css">
+	<script src="./menu_files/jquery-3.4.1.js.download"></script>
+
+
+</head>
+
+<body>
+	<header class="header">
+	<!-- logo -->
+	<a href="file:///C:/Users/wilja/OneDrive/Desktop/D%20&amp;%20P%20HTML%20&amp;%20CSS/1-index.html" class="logo">
+	<img src="./menu_files/sasd.png" width="50" height="50">
+	</a>
+
+	<!-- nav bar start -->
+	<nav class="navbar">
+	<input type="checkbox" id="check">
+	<ul>
+	<label for="check" class="check-btn">
+	<i class="fas fa-bars"></i>
+	</label>
+   <ul>
+	<a href="file:///C:/Users/wilja/OneDrive/Desktop/D%20&amp;%20P%20HTML%20&amp;%20CSS/DELIMA%20&amp;%20PEREGRINA.html">Home</a>
+	<li><a class="active" href="file:///C:/Users/wilja/OneDrive/Desktop/D%20&amp;%20P%20HTML%20&amp;%20CSS/menu.html">Menu</a></li>
+	<li><a class="active" href="file:///C:/Users/wilja/OneDrive/Desktop/D%20&amp;%20P%20HTML%20&amp;%20CSS/menu.html">About Us</a></li>
+	</ul>
+	<ul li="">
+	 <li> <a href="file:///C:/Users/wilja/OneDrive/Desktop/D%20&amp;%20P%20HTML%20&amp;%20CSS/menu.html"> </a>
+	</li><li> <a href="file:///C:/Users/wilja/OneDrive/Desktop/D%20&amp;%20P%20HTML%20&amp;%20CSS/DELIMA%20&amp;%20PEREGRINA.html"> </a>
+	</li>
+	<!--<div id="menu-btn" class="fas fa-bars"></div> -->
+	</ul></ul></nav>
+	<!-- nav bar end -->
+
+	<!-- hyperlink with icons (search, cart, profile, menu button) -->
+	<div class="icons">
+	<div class="cart-container" onmouseover="showCartForm()" onmouseout="hideCart Form()">
+	<a href="file:///C:/Users/wilja/OneDrive/Desktop/D%20&amp;%20P%20HTML%20&amp;%20CSS/4-cart.html">
+	<div class="fas fa-shopping-cart" id="cartButton"></div>
+	</a>
+	<div class="cart-form" id="cartForm">
+	<form>
+	<div id="cartItems"></div>
+	<div id="total-price">Total Price: P<span id="totalPrice">0.00</span></div>
+	</form>
+	</div>
+</div>
+<!-- hyperlink with icons (search, cart, profile, menu button) -->
+	</div></header>
+
+<section class="menu" id="menu">
+	<h1 class="heading">OUR <span>MENU</span></h1>
+	<p class="heading-description">Have your break with the Choco Orb Delight </p>
+
+
+	<div class="category-text"><h3></h3></div>
+
+	<div class="menu">
+	<div class="container menu-section">
+
+<!-- product 4 -->
+<div class="menu-box" id="frapspd">
+	<div class="menu-img">
+		<img src="./menu_files/blueberry.jpg" height="150" width="150">
+	</div>
+	<div class="menu-content">
+		<h3>Blue Berry Choco Bomb</h3>
+	<p>Rich, velvety chocolate meets juicy blueberry ecstasy.</p> 
+	<div onclick="addToCart(&#39;Iced Cafelatte (Small)&#39;, &#39;P100.00&#39;, &#39;Products/No 8G/iced_cafelatte.png&#39;, &#39;item6-s&#39;); return false;"> 
+		<button id="item6-s">Mini Choco Bomb <span>P100.00</span></button>
+	</div>
+
+	<div onclick="addToCart(&#39;Iced Cafelatte (Medium), P150.00&#39;, &#39;Products/No BG/iced_cafelatte.png&#39;, &#39;item6-m&#39;); return false;"> 
+		<button id="item6-m">Regular Choco Bomb <span>P150.00</span></button>
+	</div>
+
+	<div onclick="addToCart(&#39;Iced Cafelatte (Large)&#39;, &#39;P200.00&#39;, &#39;Products/No BG/iced_cafelatte.png&#39;, &#39;item6-1&#39;); return false;">
+	<button id="item6-1">Large Choco Bomb<span>P200.00</span></button>	
+		</div>
+	</div>
+</div>
+
+	<!-- Add more menu items here with the same structure -->
+</div>
+
+	<div class="category-text"><h3></h3></div>
+
+	</div>
+	
+	
+
+	<!-- product 2 -->
+	<div class="menu-box">
+	<div class="menu-img"> 
+	</div>
+
+	<div class="menu-box">
+	<div class="menu-img">
+	</div>
+	</div>
+
+	<!-- product 4 -->
+	<div class="menu-box">
+	<div class="menu-img">
+	</div>
+	</div>
+	<!-- Add more menu items here with the same structure -->
+</div>
+
+
+	<div class="container menu-section">
+		<!-- product 1-->
+		<div class="menu-box">
+		<div class="menu-img"> 
+			<img src="./menu_files/creamycheese.jpg" height="150" width="150">
+		</div>
+		<div class="category-text"><h3>Creamy Cheese Choco Bomb</h3></div>
+		<div class="menu-content">
+			<p>Indulge in the ultimate sweet and savory treat.</p>
+			<div onclick="addToCart(&#39;Hot Americano (Small)&#39;, &#39;P90.00&#39;, &#39;Products/No BG/hot_americano.png&#39;, &#39;item9-s&#39;); return false;"> 
+		<button id="item9-s">Mini Choco Bomb<span>P100.00</span></button>
+		</div>
+
+		<div onclick="addToCart(&#39;Hot Americano (Medium)&#39;, &#39;P100.00&#39;, &#39;Products/No BG/hot_americano.png&#39;, &#39;items-m&#39;); return false;">
+		<button id="item-m">Regular Choco Bomb  <span>P150.00</span></button>
+		</div>
+
+	<div onclick="addToCart(&#39;Hot Americano (Large)&#39;, &#39;P120.00&#39;, &#39;Products/No BG/hot_americano.png&#39;, &#39;item9-1&#39;); return false;"> 
+	<button id="item9-1">Large Choco Bomb <span>P200.00</span></button>
+	</div>
+
+<!-- product 2 -->
+	<div class="menu-box">
+	<div class="menu-img">
+	<img src="./menu_files/matcha.jpg" width="150" height="150">
+	</div>
+	<div class="menu-content">
+		<h3>Matcha Da Combo Choco Bomb</h3>
+	<p>Experience the subtle bitternes of matcha balanced by sweet, creamy chocolate.</p> 
+	<div onclick="addToCart(&#39;Cookies and Cream (Mini Choco Bomb)&#39;, &#39;P100.00&#39;, &#39;Products/No BG/hot_mocha.png&#39;, &#39;item12-s&#39;); return false;"> 
+	<div onclick="addToCart(&#39;Cookies and Cream (Mini Choco Bomb)&#39;, &#39;P100.00&#39;, &#39;Products/No BG/hot_mocha.png&#39;, &#39;item12-s&#39;); return false;"> 
+	<button id="item12-s">Mini Choco Bomb <span>P100.00</span></button>
+	</div>
+
+	<div onclick="addToCart(&#39;Hot Mocha (Medium)&#39;, &#39;P100.00&#39;, &#39;Products/No BG/hot mocha.png&#39;, &#39;item12-m&#39;); return false;">
+    <button id="item12-n">Regular Choco Bomb <span>P150.00</span></button>
+	</div>
+
+			<div onclick="addToCart(&#39;Hot Mocha (Large)&#39;, &#39;P120.00&#39;, &#39;Products/No BG/hot_mocha.png&#39;, &#39;item12-1&#39;); return false;"> 
+			<button id="item12-1">Large Choco Bomb <span>P200.00</span></button>
+	</div>
+	</div>
+	</div>
+
+
+	<div class="menu-box">
+	<div class="menu-img">
+	<img src="./menu_files/salted caramel.jpg" width="150" height="150">
+	</div>
+	<div class="menu-content">
+	<h3>Salted Caramel Choco Bomb</h3>
+	<p>The salted caramel choco bomb delivers a perfect harmony of rich, buttery caramel and a touch of sea salt, enveloped in smooth, decadent chocolate, creating a sweet and savory treat that tantalizes the taste buds with every bite.</p>
+<div onclick="addToCart(&#39;Cookies and Cream (Mini Choco Bomb)&#39;, &#39;P100.00&#39;, &#39;Products/No BG/hot_mocha.png&#39;, &#39;item12-s&#39;); return false;"> 
+	<div onclick="addToCart(&#39;Cookies and Cream (Mini Choco Bomb)&#39;, &#39;P100.00&#39;, &#39;Products/No BG/hot_mocha.png&#39;, &#39;item12-s&#39;); return false;"> 
+	<button id="item12-s">Mini Choco Bomb <span>P100.00</span></button>
+	</div>
+
+	<div onclick="addToCart(&#39;Hot Mocha (Medium)&#39;, &#39;P100.00&#39;, &#39;Products/No BG/hot mocha.png&#39;, &#39;item12-m&#39;); return false;">
+    <button id="item12-n">Regular Choco Bomb <span>P150.00</span></button>
+	</div>
+
+			<div onclick="addToCart(&#39;Hot Mocha (Large)&#39;, &#39;P120.00&#39;, &#39;Products/No BG/hot_mocha.png&#39;, &#39;item12-1&#39;); return false;"> 
+			<button id="item12-1">Large Choco Bomb<span>P200.00</span></button>
+	</div>
+
+			<div onclick="addToCart(&#39;Hot Mocha (Large)&#39;, &#39;P120.00&#39;, &#39;Products/No BG/hot_mocha.png&#39;, &#39;item12-1&#39;); return false;"> 
+	</div>
+</div> 
+</div>
+
+	
+	<div class="menu" id="hot-mocha"> 
+	<div class="menu-img">
+	<img src="./menu_files/cookies and cream.jpg" width="150" height="150">
+	</div>
+	<div class="menu-content">
+	<h3>Cookies and Cream Choco Bomb</h3>
+	<p>The taste of a cookies and cream choco bomb is a delightful blend of smooth, velvety chocolate and crunchy cookie bits, creating a perfect balance of rich, creamy sweetness with a satisfying crunch in every bite.</p> 
+	<div onclick="addToCart(&#39;Cookies and Cream (Mini Choco Bomb)&#39;, &#39;P100.00&#39;, &#39;Products/No BG/hot_mocha.png&#39;, &#39;item12-s&#39;); return false;"> 
+	<button id="item12-s">Mini Choco Bomb <span>P100.00</span></button>
+	</div>
+
+	<div onclick="addToCart(&#39;Hot Mocha (Medium)&#39;, &#39;P100.00&#39;, &#39;Products/No BG/hot mocha.png&#39;, &#39;item12-m&#39;); return false;">
+    <button id="item12-n">Regular Choco Bomb <span>P150.00</span></button>
+	</div>
+
+			<div onclick="addToCart(&#39;Hot Mocha (Large)&#39;, &#39;P120.00&#39;, &#39;Products/No BG/hot_mocha.png&#39;, &#39;item12-1&#39;); return false;"> 
+			<button id="item12-1">Large Choco Bomb<span>P200.00</span></button>
+			</div>
+		</div>
+</div>
+
+</div></div></div></div></div></section>
+	<!-- Menu Section End -->
+
+		<!-- footer start-->
+	<section class="footer">
+
+	<div class="container">
+	<div class="footer-box-1">
+	<h3> Location </h3>
+	<div class="footer-loc">
+	<a href="https://www.google.com/maps/place/TUP+-+College+of+Industrial+Technology/814.5873937,120.9848474,17z/%20data-13m1!4b1!4m613m5!1s0x3397cb93cd451575:0x6247d293ffefede@18m2!3d14.587393714d120.9848474/16s%2F%2F11hfq216nk?hl=en&amp;entry-ttu" target="_blank"> College of Industrial Technology, 660. TUP, Ermita, Manila, 1000</a>
+				</div>
+		</div>
+
+		<div class="footer-box">
+	<h3>Newsletters
+	<p>Stay update with our latest</p>
+	<form>
+		<input type="email" name="email placeholder-name@gmail.com">
+		<button type="submit"><i class="fa-solid fa-right-long"></i></button>
+	</form>
+</h3></div>
+
+<div class="footer-box">
+	<h3>Contact Us</h3>
+	<p>Connect With Us On:</p>
+	<div class="icons">
+			<a href="file:///C:/Users/wilja/OneDrive/Desktop/D%20&amp;%20P%20HTML%20&amp;%20CSS/menu.html#"><i class="fa-brands fa-facebook-f"></i></a>
+			<a href="file:///C:/Users/wilja/OneDrive/Desktop/D%20&amp;%20P%20HTML%20&amp;%20CSS/menu.html#"><i class="fa-brands fa-instagram"></i></a>
+			<a href="file:///C:/Users/wilja/OneDrive/Desktop/D%20&amp;%20P%20HTML%20&amp;%20CSS/menu.html#"><i class="fa-brands fa-twitter"></i></a>
+		</div>
+
+	</div>
+</div>
+		</section>
+		<!-- footer end -->
+		<script src="file:///C:/Users/wilja/OneDrive/Desktop/D%20&amp;%20P%20HTML%20&amp;%20CSS/2-menu.js"></script>
+
+</body></html>
